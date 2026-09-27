@@ -1,0 +1,25 @@
+{
+  "name": "ccs-absorption-remotion",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CCS amine absorption process motion graphic (Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render CcsCapture out/ccs-capture-60fps.mp4 --concurrency=4",
+    "still": "remotion still CcsCapture out/still.png --frame=1800"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "@remotion/google-fonts": "4.0.527",
+    "@remotion/media": "4.0.527",
+    "@remotion/sfx": "4.0.527",
+    "@remotion/transitions": "4.0.527",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.527"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}

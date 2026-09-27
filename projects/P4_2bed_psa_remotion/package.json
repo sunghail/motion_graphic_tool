@@ -1,0 +1,30 @@
+{
+  "name": "psa-2bed-remotion",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Two-bed PSA cycle motion graphic (Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Psa2Bed out/psa-2bed-2d-60fps.mp4 --concurrency=4",
+    "render3d": "remotion render Psa2Bed3D out/psa-2bed-3d-60fps.mp4 --concurrency=4 --gl=angle",
+    "still": "remotion still Psa2Bed out/still.png --frame=1800"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.0",
+    "@remotion/cli": "4.0.527",
+    "@remotion/google-fonts": "4.0.527",
+    "@remotion/media": "4.0.527",
+    "@remotion/sfx": "4.0.527",
+    "@remotion/three": "4.0.527",
+    "@remotion/transitions": "4.0.527",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.527",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/three": "0.186.0",
+    "typescript": "5.8.3"
+  }
+}

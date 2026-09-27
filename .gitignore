@@ -1,0 +1,10 @@
+node_modules/
+out/
+.venv/
+__pycache__/
+frames/
+media/
+*.blend
+*.blend1
+render.log
+still.png
